@@ -1,0 +1,1659 @@
+[
+  {
+    "id": "ff4919a8-ca84-4039-a9b5-898568be91c5",
+    "title": "August Sprint",
+    "totalQuestCount": 4,
+    "claimedQuestCount": 0,
+    "quests": [
+      {
+        "tasks": [
+          {
+            "type": "twitterFollow"
+          },
+          {
+            "type": "telegram"
+          },
+          {
+            "type": "url"
+          },
+          {
+            "type": "url"
+          },
+          {
+            "type": "url"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 500,
+            "status": "unspecified"
+          }
+        ],
+        "id": "549a7122-2314-4631-ba21-0d52a25705c4",
+        "name": "Socials",
+        "position": 0,
+        "categoryId": "ff4919a8-ca84-4039-a9b5-898568be91c5",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Follow all Invnex social media. ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Unfollowing after following would remove any xp generated. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      },
+      {
+        "tasks": [
+          {
+            "type": "tweet"
+          },
+          {
+            "type": "twitterFollow"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 300,
+            "status": "unspecified"
+          }
+        ],
+        "id": "62a6db42-4f26-4332-a572-9fd10760b5cc",
+        "name": "Tweet",
+        "position": 1,
+        "categoryId": "ff4919a8-ca84-4039-a9b5-898568be91c5",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Post a tweet and make sure you tag us @InvnexCo",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      },
+      {
+        "tasks": [
+          {
+            "type": "tweetReact"
+          },
+          {
+            "type": "tweetReact"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 400,
+            "status": "unspecified"
+          }
+        ],
+        "id": "0db6f157-a36c-4fa7-a276-f896872d781c",
+        "name": "Tweet Engage",
+        "position": 2,
+        "categoryId": "ff4919a8-ca84-4039-a9b5-898568be91c5",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Like, retweet and reply to the pinned tweet and make sure to tag at least 3 friends. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      },
+      {
+        "tasks": [
+          {
+            "type": "visitLink"
+          },
+          {
+            "type": "file"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 750,
+            "status": "unspecified"
+          }
+        ],
+        "id": "5b4efe9f-6160-498c-92e6-37aaeb995f12",
+        "name": "Invnex Sign Up ",
+        "position": 3,
+        "categoryId": "ff4919a8-ca84-4039-a9b5-898568be91c5",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Sign up on Invnex with a valid email.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Attach proof of registration.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      }
+    ],
+    "description": "",
+    "coverVerticalPosition": 0,
+    "color": "",
+    "status": "open",
+    "position": 0
+  },
+  {
+    "id": "f75a8d77-73f3-4590-bfc6-cf2b78d17ce7",
+    "title": "Day 1: Introduction",
+    "totalQuestCount": 4,
+    "claimedQuestCount": 0,
+    "quests": [
+      {
+        "tasks": [
+          {
+            "type": "visitLink"
+          },
+          {
+            "type": "quiz"
+          },
+          {
+            "type": "quiz"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "other",
+            "value": "Onboarding",
+            "status": "unspecified"
+          },
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 10,
+            "status": "unspecified"
+          }
+        ],
+        "id": "a1ef2d8c-2567-4d5b-af6d-dabdb1b1ed64",
+        "name": "Welcome to Invnex 👋",
+        "position": 1,
+        "categoryId": "f75a8d77-73f3-4590-bfc6-cf2b78d17ce7",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Invnex is redefining wealth generation by empowering you to build a robust investment portfolio with assets from private markets and fixed income. A complete platform with primary markets and an exchange, Invnex is changing finance, and it's all onchain. ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Prior to our public launch, we've designed these Zealy quests for our community to reward your contributions and engagement. ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Complete these tasks to get the quest ",
+                  "type": "text"
+                },
+                {
+                  "text": "rewards ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": "and climb up the XP leaderboard. The top 5 contributors will win 120 USDT and receive additional rewards such as invites to Invnex's exclusive in-person events and Formula 1 tickets.  ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Leaderboard rewards:",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "orderedList",
+              "attrs": {
+                "type": null,
+                "start": 1
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "1st rank: 50 USDT",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "2nd rank: 25 USDT",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "3rd rank: 20 USDT",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "4th rank: 15 USDT",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "5th rank: 10 USDT",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Below you can see the first tasks you need to do to get your reward. Please, read the sections of Invnex website, including the FAQ page to be able to answer the quiz.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      },
+      {
+        "tasks": [
+          {
+            "type": "telegram"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 25,
+            "status": "unspecified"
+          }
+        ],
+        "id": "eb6cb7a4-f37d-454b-944d-d2a6b4dbcabc",
+        "name": "Join Telegram",
+        "position": 2,
+        "categoryId": "f75a8d77-73f3-4590-bfc6-cf2b78d17ce7",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Join telegram and introduce yourself to the community",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "1. Join ",
+                  "type": "text"
+                },
+                {
+                  "text": "our telegram",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "rel": "noopener noreferrer nofollow",
+                        "href": "https://telegram.org/",
+                        "class": null,
+                        "target": "_blank"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": " if you haven't done that yet.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "Do all this and then you'll have access to the Quests that require a role.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "This quest will auto-validate when you claim it. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      },
+      {
+        "tasks": [
+          {
+            "type": "twitterFollow"
+          },
+          {
+            "type": "twitterFollow"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 25,
+            "status": "unspecified"
+          }
+        ],
+        "id": "97015b03-0b2e-4b28-9735-13fad5881b86",
+        "name": "Follow X (Twitter)",
+        "position": 3,
+        "categoryId": "f75a8d77-73f3-4590-bfc6-cf2b78d17ce7",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 3
+              },
+              "content": [
+                {
+                  "text": "MISSION 🎯",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Follow the Invnex page on twitter",
+                  "type": "text"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "https://twitter.com/invnexco",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "rel": "noopener noreferrer nofollow",
+                        "href": "https://twitter.com/invnexco",
+                        "class": null,
+                        "target": "_blank"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "And follow the founder's page on twitter",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "https://twitter.com/amiridlt",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "rel": "noopener noreferrer nofollow",
+                        "href": "https://twitter.com/amiridlt",
+                        "class": null,
+                        "target": "_blank"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "hardBreak"
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 3
+              },
+              "content": [
+                {
+                  "text": "GUIDE 📚",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Hear the latest company developments and the founder's insights on Twitter.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 3
+              },
+              "content": [
+                {
+                  "text": "SUBMISSION 📝",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Upload a screenshot as a proof",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      },
+      {
+        "tasks": [
+          {
+            "type": "visitLink"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "other",
+            "value": "Onboarding Complete!",
+            "status": "unspecified"
+          },
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 25,
+            "status": "unspecified"
+          }
+        ],
+        "id": "9414d96b-78eb-4ea4-80b7-a1a5875ce8f1",
+        "name": "Follow Medium ",
+        "position": 4,
+        "categoryId": "f75a8d77-73f3-4590-bfc6-cf2b78d17ce7",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Follow the official Invnex blog on Medium",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      }
+    ],
+    "description": null,
+    "coverVerticalPosition": 0,
+    "color": null,
+    "status": "open",
+    "position": 1
+  },
+  {
+    "id": "f971cc2b-f075-4af8-9605-89e6d77453b5",
+    "title": "Day 2: Investments 101",
+    "totalQuestCount": 4,
+    "claimedQuestCount": 0,
+    "quests": [
+      {
+        "tasks": [
+          {
+            "type": "visitLink"
+          },
+          {
+            "type": "quiz"
+          },
+          {
+            "type": "text"
+          },
+          {
+            "type": "tweet"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 100,
+            "status": "unspecified"
+          }
+        ],
+        "id": "ed921d37-a323-4cf9-b585-e550c5a2343f",
+        "name": "Investing Starts Here",
+        "position": 0,
+        "categoryId": "f971cc2b-f075-4af8-9605-89e6d77453b5",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Let's kick off your journey into the world of tokenized investments! First, visit our website to learn the basics. Then, test your knowledge with a quick quiz about alternative investments and how Invnex is transforming the space. Finally, share your thoughts on what excites you most about tokenized investments.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      },
+      {
+        "tasks": [
+          {
+            "type": "visitLink"
+          },
+          {
+            "type": "quiz"
+          },
+          {
+            "type": "opinion"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 150,
+            "status": "unspecified"
+          }
+        ],
+        "id": "ff3d9acb-da71-4331-9af1-26f4547fcad1",
+        "name": "Private Equity Mastermind",
+        "position": 1,
+        "categoryId": "f971cc2b-f075-4af8-9605-89e6d77453b5",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Become a private equity pro! Start by exploring our PE investment options page, then complete a challenge to identify different types of PE investments. Rate your current understanding of PE investments compared to when you started.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      },
+      {
+        "tasks": [
+          {
+            "type": "visitLink"
+          },
+          {
+            "type": "poll"
+          },
+          {
+            "type": "text"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 200,
+            "status": "unspecified"
+          }
+        ],
+        "id": "6afa36dc-47ad-4f2d-9bcf-dc2e3093adec",
+        "name": "Yield & Fixed Income",
+        "position": 2,
+        "categoryId": "f971cc2b-f075-4af8-9605-89e6d77453b5",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Discover the power of high-yield opportunities! Begin by checking out our credit investment offerings, take a poll about your preferred investment duration, and demonstrate your learning by explaining how digital assets enhance traditional lending.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      },
+      {
+        "tasks": [
+          {
+            "type": "visitLink"
+          },
+          {
+            "type": "quiz"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 250,
+            "status": "unspecified"
+          }
+        ],
+        "id": "6439d34c-bafa-4b6f-9f89-6f4418c7062b",
+        "name": "Digital Assets Deep Dive",
+        "position": 3,
+        "categoryId": "f971cc2b-f075-4af8-9605-89e6d77453b5",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Master the intersection of blockchain and traditional finance! Visit our platform Learn page and complete a comprehensive quiz about tokenized investments.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      }
+    ],
+    "description": "Dive into the world of tokenized investments and discover how Invnex is revolutionizing access to high-yield opportunities. Perfect for both newcomers and seasoned investors!",
+    "coverVerticalPosition": 0,
+    "color": null,
+    "status": "open",
+    "position": 2
+  },
+  {
+    "id": "c18401b0-a5d8-4e00-a10c-ad2ebb263a16",
+    "title": "Day 3: Social Challenge",
+    "totalQuestCount": 4,
+    "claimedQuestCount": 0,
+    "quests": [
+      {
+        "tasks": [
+          {
+            "type": "visitLink"
+          },
+          {
+            "type": "tweet"
+          },
+          {
+            "type": "tweet"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 100,
+            "status": "unspecified"
+          }
+        ],
+        "id": "634140af-0513-4e4c-88d2-4aa91865e492",
+        "name": "Social Media Superstar",
+        "position": 0,
+        "categoryId": "c18401b0-a5d8-4e00-a10c-ad2ebb263a16",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Begin your social journey with Invnex! Follow us on Twitter to stay updated with the latest in tokenized investments. Retweet our pinned post to spread the word about the future of finance, and share your excitement about alternative investments by crafting your own tweet. Let's make investing accessible and exciting for everyone!",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      },
+      {
+        "tasks": [
+          {
+            "type": "visitLink"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 150,
+            "status": "unspecified"
+          }
+        ],
+        "id": "df84d349-5137-4f32-b1ea-068060ccb1fd",
+        "name": "Community Champion",
+        "position": 1,
+        "categoryId": "c18401b0-a5d8-4e00-a10c-ad2ebb263a16",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Amplify the Invnex message and become a Community Champion! Join our Twitter Space to learn about the future of investments, engage with community posts to share insights, and tweet about your favorite Invnex feature. Let's build a vibrant community together!",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      },
+      {
+        "tasks": [
+          {
+            "type": "tweet"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 100,
+            "status": "unspecified"
+          }
+        ],
+        "id": "df1890e3-f4c8-49a9-9f37-0553c6c7b50e",
+        "name": "Influencer",
+        "position": 3,
+        "categoryId": "c18401b0-a5d8-4e00-a10c-ad2ebb263a16",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Create a thread on X (Twitter) about Invnex covering the asset classes and features. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      },
+      {
+        "tasks": [
+          {
+            "type": "tiktok"
+          },
+          {
+            "type": "invites"
+          },
+          {
+            "type": "tweet"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "vote",
+              "amount": 5
+            },
+            "type": "xp",
+            "value": 200,
+            "status": "in-progress"
+          }
+        ],
+        "id": "a475b1e2-4292-4ef7-a60a-06e83e1073de",
+        "name": "Creative Innovator",
+        "position": 2,
+        "categoryId": "c18401b0-a5d8-4e00-a10c-ad2ebb263a16",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Unleash your creativity and become a Creative Innovator with Invnex! Create a TikTok video explaining tokenized investments in your unique style, invite friends to join our community, and share your TikTok on Twitter. Let's inspire others with the power of innovation!",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [
+          {
+            "fulfilled": false,
+            "type": "quest",
+            "value": "df84d349-5137-4f32-b1ea-068060ccb1fd",
+            "operator": "isCompleted"
+          }
+        ],
+        "conditionOperator": "AND",
+        "locked": true,
+        "opened": true
+      }
+    ],
+    "description": "Join the financial revolution and help others discover the power of tokenized investments. Share your journey, earn recognition, and build connections in the Invnex community!",
+    "coverVerticalPosition": 0,
+    "color": null,
+    "status": "open",
+    "position": 3
+  },
+  {
+    "id": "c78a5939-d3d4-49df-9e92-abc2c5048225",
+    "title": "Day 4: Social Support",
+    "totalQuestCount": 5,
+    "claimedQuestCount": 0,
+    "quests": [
+      {
+        "tasks": [
+          {
+            "type": "tweetReact"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 20,
+            "status": "unspecified"
+          }
+        ],
+        "id": "7d1ecc0f-04a8-4783-ac53-d548d70a82c5",
+        "name": "Like & Retweet",
+        "position": 0,
+        "categoryId": "c78a5939-d3d4-49df-9e92-abc2c5048225",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Engage with our tweets",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      },
+      {
+        "tasks": [
+          {
+            "type": "tweetReact"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 20,
+            "status": "unspecified"
+          }
+        ],
+        "id": "50b6776d-2503-4578-b864-f4013c032378",
+        "name": "Like & Retweet",
+        "position": 1,
+        "categoryId": "c78a5939-d3d4-49df-9e92-abc2c5048225",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Engage with our tweets",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      },
+      {
+        "tasks": [
+          {
+            "type": "tweetReact"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 100,
+            "status": "unspecified"
+          }
+        ],
+        "id": "4a084af2-ce66-4ad1-b468-f60fdb791aaf",
+        "name": "Like, Retweet, Reply",
+        "position": 2,
+        "categoryId": "c78a5939-d3d4-49df-9e92-abc2c5048225",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Engage with our tweets",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      },
+      {
+        "tasks": [
+          {
+            "type": "visitLink"
+          },
+          {
+            "type": "file"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 100,
+            "status": "unspecified"
+          }
+        ],
+        "id": "61a8fb49-540f-45c4-a111-18f051d4849d",
+        "name": "Metis Forum Push",
+        "position": 3,
+        "categoryId": "c78a5939-d3d4-49df-9e92-abc2c5048225",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Check out the Invnex thread on the Metis Forum by visiting the link below. ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Engage by liking and commenting on the thread. Share screenshot as proof.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      },
+      {
+        "tasks": [
+          {
+            "type": "visitLink"
+          },
+          {
+            "type": "file"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 100,
+            "status": "unspecified"
+          }
+        ],
+        "id": "ba1fe95e-39ee-46ed-9c30-7a0892634e34",
+        "name": "Instagram Engagement",
+        "position": 5,
+        "categoryId": "c78a5939-d3d4-49df-9e92-abc2c5048225",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Like, comment and save this Invnex Instagram post.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Share screenshot as proof. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      }
+    ],
+    "description": "",
+    "coverVerticalPosition": 0,
+    "color": "",
+    "status": "open",
+    "position": 4
+  },
+  {
+    "id": "5aea0c06-288a-4840-be19-a24f7e20f24d",
+    "title": "Day 5: Invnex Signup",
+    "totalQuestCount": 3,
+    "claimedQuestCount": 0,
+    "quests": [
+      {
+        "tasks": [
+          {
+            "type": "visitLink"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 500,
+            "status": "unspecified"
+          }
+        ],
+        "id": "8b7205fc-8129-462f-9fc3-33f02de5ad6f",
+        "name": "Register Invnex Account",
+        "position": 0,
+        "categoryId": "5aea0c06-288a-4840-be19-a24f7e20f24d",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Create your account on Invnex to get access to world-class tokenized investments in private equity, real estate, private credit and more.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      },
+      {
+        "tasks": [
+          {
+            "type": "visitLink"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 250,
+            "status": "unspecified"
+          }
+        ],
+        "id": "59a5b18f-a261-4f51-8176-7523fa3ace8b",
+        "name": "Investing Preference",
+        "position": 1,
+        "categoryId": "5aea0c06-288a-4840-be19-a24f7e20f24d",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Tell us about your investing style and preference by completing this short Google Form.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Send screenshot once done.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      },
+      {
+        "tasks": [
+          {
+            "type": "invites"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 500,
+            "status": "unspecified"
+          }
+        ],
+        "id": "3f4b8b2c-4940-46b3-b46f-7c5bd52c1482",
+        "name": "Refer Friends",
+        "position": 2,
+        "categoryId": "5aea0c06-288a-4840-be19-a24f7e20f24d",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Get a massive XP boost by referring your friends to join our community.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      }
+    ],
+    "description": "",
+    "coverVerticalPosition": 0,
+    "color": "",
+    "status": "open",
+    "position": 5
+  },
+  {
+    "id": "506f5938-9f18-4a5c-9927-397701ca72fe",
+    "title": "Join AMA on X (Twitter)",
+    "totalQuestCount": 1,
+    "claimedQuestCount": 0,
+    "quests": [
+      {
+        "tasks": [
+          {
+            "type": "twitterSpace"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 100,
+            "status": "unspecified"
+          }
+        ],
+        "id": "29276c1e-5264-4f50-9837-1087541572b1",
+        "name": "Join the AMA",
+        "position": 2,
+        "categoryId": "506f5938-9f18-4a5c-9927-397701ca72fe",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      }
+    ],
+    "description": "",
+    "coverVerticalPosition": 0,
+    "color": "",
+    "status": "open",
+    "position": 6
+  }
+]

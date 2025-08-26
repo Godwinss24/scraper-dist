@@ -1,0 +1,379 @@
+[
+  {
+    "id": "ad474dfa-7980-4b8d-8587-e7523b70d811",
+    "title": "🌐 Onboarding Titans",
+    "totalQuestCount": 5,
+    "claimedQuestCount": 1,
+    "quests": [
+      {
+        "tasks": [
+          {
+            "type": "visitLink"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 10,
+            "status": "unspecified"
+          }
+        ],
+        "id": "9065d98e-641e-4636-be33-5774f2228a51",
+        "name": "🌍 Visit the Website",
+        "position": 7,
+        "categoryId": "ad474dfa-7980-4b8d-8587-e7523b70d811",
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      },
+      {
+        "tasks": [
+          {
+            "type": "telegram"
+          },
+          {
+            "type": "file"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 20,
+            "status": "unspecified"
+          }
+        ],
+        "id": "5120619b-5770-4489-8c0c-e7df0784653c",
+        "name": "💬 Join the Telegram",
+        "position": 9,
+        "categoryId": "ad474dfa-7980-4b8d-8587-e7523b70d811",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Join our telegram to connect with Titans worldwide. Once inside, send a message like ",
+                  "type": "text"
+                },
+                {
+                  "text": "“GM”",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": " or ",
+                  "type": "text"
+                },
+                {
+                  "text": "“Hello guys!”",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": " to introduce yourself.",
+                  "type": "text"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "To claim this quest, upload a ",
+                  "type": "text"
+                },
+                {
+                  "text": "screenshot showing your message in the chat",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      },
+      {
+        "tasks": [
+          {
+            "type": "visitLink"
+          },
+          {
+            "type": "file"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 20,
+            "status": "unspecified"
+          }
+        ],
+        "id": "e0642936-f792-4b4b-9864-ea1d2ad0ff41",
+        "name": "📖 Follow Cyborg on Medium",
+        "position": 10,
+        "categoryId": "ad474dfa-7980-4b8d-8587-e7523b70d811",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Follow us on Medium to stay updated with the latest articles and announcements.",
+                  "type": "text"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "To claim this quest, upload a ",
+                  "type": "text"
+                },
+                {
+                  "text": "screenshot showing that you are following the page",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": " (the button must show ",
+                  "type": "text"
+                },
+                {
+                  "text": "“Following”",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": " as in the example).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      },
+      {
+        "tasks": [
+          {
+            "type": "visitLink"
+          },
+          {
+            "type": "file"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 20,
+            "status": "unspecified"
+          }
+        ],
+        "id": "91d9d329-5a88-4b11-a396-970870a5abac",
+        "name": "💼 Follow on LinkedIn ",
+        "position": 11,
+        "categoryId": "ad474dfa-7980-4b8d-8587-e7523b70d811",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Follow us on Linkedin to stay connected with professional updates and company news.",
+                  "type": "text"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "To claim this quest, upload a ",
+                  "type": "text"
+                },
+                {
+                  "text": "screenshot showing that you are following the page",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": " (the button must display ",
+                  "type": "text"
+                },
+                {
+                  "text": "“Following”",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ", as in the example).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      }
+    ],
+    "description": null,
+    "coverVerticalPosition": 0,
+    "color": null,
+    "status": "open",
+    "position": 0
+  },
+  {
+    "id": "1ec0b90b-d3e5-492b-a048-e8745e3332fa",
+    "title": "👥 Referral Challenge",
+    "totalQuestCount": 1,
+    "claimedQuestCount": 0,
+    "quests": [
+      {
+        "tasks": [
+          {
+            "type": "invites"
+          }
+        ],
+        "rewards": [
+          {
+            "method": {
+              "type": "all"
+            },
+            "type": "xp",
+            "value": 10,
+            "status": "unspecified"
+          }
+        ],
+        "id": "baf754de-f4af-48ce-a955-00c2984c6e74",
+        "name": "👤 Invite 1 Friend",
+        "position": 1,
+        "categoryId": "1ec0b90b-d3e5-492b-a048-e8745e3332fa",
+        "canRetry": true,
+        "claimed": false,
+        "completed": false,
+        "inReview": false,
+        "claimLimit": 0,
+        "retryAfter": 0,
+        "recurrence": "once",
+        "conditions": [
+          {
+            "fulfilled": true,
+            "type": "quest",
+            "value": "96249674-a67f-4f85-9b9f-7830b4c2de65",
+            "operator": "isCompleted"
+          }
+        ],
+        "conditionOperator": "AND",
+        "locked": false,
+        "opened": true
+      }
+    ],
+    "description": "",
+    "coverVerticalPosition": 0,
+    "color": "",
+    "status": "open",
+    "position": 3
+  },
+  {
+    "id": "65a16e0a-b7db-4796-83bb-e96e58111065",
+    "title": "📢 Social Engagement",
+    "totalQuestCount": 1,
+    "claimedQuestCount": 1,
+    "quests": [],
+    "description": "Help spread the word about Cyborg Network while building your own tech influence! Share insights, engage with our community, and earn recognition as an AI infrastructure advocate.",
+    "coverVerticalPosition": 0,
+    "color": null,
+    "status": "completed",
+    "position": 2
+  }
+]
