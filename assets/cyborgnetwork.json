@@ -3,40 +3,8 @@
     "id": "ad474dfa-7980-4b8d-8587-e7523b70d811",
     "title": "🌐 Onboarding Titans",
     "totalQuestCount": 5,
-    "claimedQuestCount": 1,
+    "claimedQuestCount": 2,
     "quests": [
-      {
-        "tasks": [
-          {
-            "type": "visitLink"
-          }
-        ],
-        "rewards": [
-          {
-            "method": {
-              "type": "all"
-            },
-            "type": "xp",
-            "value": 10,
-            "status": "unspecified"
-          }
-        ],
-        "id": "9065d98e-641e-4636-be33-5774f2228a51",
-        "name": "🌍 Visit the Website",
-        "position": 7,
-        "categoryId": "ad474dfa-7980-4b8d-8587-e7523b70d811",
-        "canRetry": true,
-        "claimed": false,
-        "completed": false,
-        "inReview": false,
-        "claimLimit": 0,
-        "retryAfter": 0,
-        "recurrence": "once",
-        "conditions": [],
-        "conditionOperator": "AND",
-        "locked": false,
-        "opened": true
-      },
       {
         "tasks": [
           {
@@ -315,8 +283,8 @@
   {
     "id": "1ec0b90b-d3e5-492b-a048-e8745e3332fa",
     "title": "👥 Referral Challenge",
-    "totalQuestCount": 1,
-    "claimedQuestCount": 0,
+    "totalQuestCount": 2,
+    "claimedQuestCount": 1,
     "quests": [
       {
         "tasks": [
@@ -330,13 +298,13 @@
               "type": "all"
             },
             "type": "xp",
-            "value": 10,
+            "value": 20,
             "status": "unspecified"
           }
         ],
-        "id": "baf754de-f4af-48ce-a955-00c2984c6e74",
-        "name": "👤 Invite 1 Friend",
-        "position": 1,
+        "id": "cfe8ac28-e70a-4eb7-9248-ec59fb310e81",
+        "name": "👤 Invite 2 Friends",
+        "position": 2,
         "categoryId": "1ec0b90b-d3e5-492b-a048-e8745e3332fa",
         "canRetry": true,
         "claimed": false,
@@ -349,7 +317,7 @@
           {
             "fulfilled": true,
             "type": "quest",
-            "value": "96249674-a67f-4f85-9b9f-7830b4c2de65",
+            "value": "baf754de-f4af-48ce-a955-00c2984c6e74",
             "operator": "isCompleted"
           }
         ],
@@ -363,6 +331,18 @@
     "color": "",
     "status": "open",
     "position": 3
+  },
+  {
+    "id": "acabb2a8-6d47-4a42-b980-728c8b5d4e46",
+    "title": "📝 Become a Titan ",
+    "totalQuestCount": 1,
+    "claimedQuestCount": 1,
+    "quests": [],
+    "description": "Discover how Cyborg Network is revolutionizing AI infrastructure and learn why it matters for developers, enterprises, and tech enthusiasts. Get the inside scoop on the future of distributed AI!",
+    "coverVerticalPosition": 0,
+    "color": null,
+    "status": "completed",
+    "position": 1
   },
   {
     "id": "65a16e0a-b7db-4796-83bb-e96e58111065",

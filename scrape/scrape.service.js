@@ -98,8 +98,8 @@ let ScrapeService = class ScrapeService {
             catch (err) {
             }
             if (JSON.stringify(existingData) !== JSON.stringify(data)) {
-                await this.sendMessage(5669972257, "New Update");
-                await this.sendMessage(5727225410, "New Updated");
+                await this.sendMessage(5669972257, `New Update: ${link}`);
+                await this.sendMessage(5727225410, `New Update: ${link}`);
                 await this.editFileContent(filePath, data);
                 console.log("Data changed. File updated.");
             }
@@ -113,17 +113,24 @@ let ScrapeService = class ScrapeService {
         }
     }
     async scrapeData() {
-        const links = [
-            {
-                link: 'https://api-v1.zealy.io/communities/cyborgnetwork/questboard/v2?filters=available&filters=locked',
-                fileName: 'cyborgnetwork.json'
-            },
-            {
-                link: 'https://api-v1.zealy.io/communities/invnex/questboard/v2?filters=completed&filters=inReview&filters=inCooldown&filters=available&filters=locked',
-                fileName: 'invnex.json'
-            },
-        ];
+        const rawLinks = this.configService.get('ZEALY_LINKS');
+        if (!rawLinks) {
+            console.error("ZEALY_LINKS not defined in .env");
+            return;
+        }
+        let links;
+        try {
+            links = JSON.parse(rawLinks);
+        }
+        catch (err) {
+            console.error("Invalid ZEALY_LINKS JSON in .env", err);
+            return;
+        }
         for (const event of links) {
+            if (!event.link || !event.fileName) {
+                console.error("Invalid entry in ZEALY_LINKS:", event);
+                continue;
+            }
             await this.getZealyData(event.link, event.fileName);
         }
     }
