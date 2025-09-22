@@ -112,9 +112,9 @@ let ScrapeService = class ScrapeService {
     }
     async onLeaderboardChange(name) {
         console.log("Running your custom logic...");
-        await this.sendMessage(5669972257, `Task Added`);
-        await this.sendMessage(5727225410, `Task Added`);
-        await this.sendMessage(7691672328, `Task Added`);
+        await this.sendMessage(5669972257, `Task Added ${link}`);
+        await this.sendMessage(5727225410, `Task Added ${link}`);
+        await this.sendMessage(7691672328, `Task Added ${link}`);
     }
     async scrapeData() {
         const rawLinks = this.configService.get("ZEALY_LINKS");
