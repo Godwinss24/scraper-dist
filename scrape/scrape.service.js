@@ -84,6 +84,17 @@ let ScrapeService = class ScrapeService {
     async editFileContent(filePath, data) {
         await fs_1.promises.writeFile(filePath, data);
     }
+    extractUsername(url) {
+        try {
+            const urlObj = new URL(url);
+            const parts = urlObj.pathname.split('/');
+            return parts[2] || null;
+        }
+        catch (error) {
+            console.error('Invalid URL:', error);
+            return null;
+        }
+    }
     async getZealyData(link, fileName) {
         try {
             const cookieData = this.cookieData();
@@ -100,7 +111,7 @@ let ScrapeService = class ScrapeService {
                 console.log('Same content', link);
             }
             else {
-                await this.onLeaderboardChange(fileName);
+                await this.onLeaderboardChange(link);
                 this.editFileContent(filePath, hashedResponse);
                 console.log('different content');
             }
@@ -110,11 +121,11 @@ let ScrapeService = class ScrapeService {
             console.error(error);
         }
     }
-    async onLeaderboardChange(name) {
+    async onLeaderboardChange(link) {
         console.log("Running your custom logic...");
-        await this.sendMessage(5669972257, `Task Added ${link}`);
-        await this.sendMessage(5727225410, `Task Added ${link}`);
-        await this.sendMessage(7691672328, `Task Added ${link}`);
+        await this.sendMessage(5669972257, `Task Added ${this.extractUsername(link)}`);
+        await this.sendMessage(5727225410, `Task Added ${this.extractUsername(link)}`);
+        await this.sendMessage(7691672328, `Task Added ${this.extractUsername(link)}`);
     }
     async scrapeData() {
         const rawLinks = this.configService.get("ZEALY_LINKS");

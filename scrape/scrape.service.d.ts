@@ -19,7 +19,8 @@ export declare class ScrapeService {
     buildRequestOptions(cookieData: string): RequestInit;
     getFileContent(filePath: string): Promise<string>;
     editFileContent(filePath: string, data: any): Promise<void>;
+    extractUsername(url: string): string | null;
     getZealyData(link: string, fileName: string): Promise<any>;
-    onLeaderboardChange(name: string): Promise<void>;
+    onLeaderboardChange(link: string): Promise<void>;
     scrapeData(): Promise<void>;
 }
