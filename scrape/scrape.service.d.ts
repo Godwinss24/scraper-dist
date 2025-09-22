@@ -15,9 +15,11 @@ export declare class ScrapeService {
     private cookieData;
     sendMessage(chatId: number, text: string): Promise<void>;
     fetchUrl(url: string, requestOptions: RequestInit): Promise<Response>;
+    hashString(data: string): string;
     buildRequestOptions(cookieData: string): RequestInit;
     getFileContent(filePath: string): Promise<string>;
     editFileContent(filePath: string, data: any): Promise<void>;
     getZealyData(link: string, fileName: string): Promise<any>;
+    onLeaderboardChange(name: string): Promise<void>;
     scrapeData(): Promise<void>;
 }

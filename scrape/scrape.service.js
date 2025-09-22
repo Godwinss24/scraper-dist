@@ -15,6 +15,7 @@ const fs_1 = require("fs");
 const path_1 = require("path");
 const config_1 = require("@nestjs/config");
 const schedule_1 = require("@nestjs/schedule");
+const crypto = require("crypto");
 let ScrapeService = class ScrapeService {
     configService;
     botToken;
@@ -60,6 +61,9 @@ let ScrapeService = class ScrapeService {
     fetchUrl(url, requestOptions) {
         return fetch(url, requestOptions);
     }
+    hashString(data) {
+        return crypto.createHash("sha256").update(data).digest("hex");
+    }
     buildRequestOptions(cookieData) {
         return {
             method: "GET",
@@ -70,6 +74,7 @@ let ScrapeService = class ScrapeService {
                 referer: "https://zealy.io/",
                 origin: "https://zealy.io",
             },
+            signal: AbortSignal.timeout(20000),
         };
     }
     async getFileContent(filePath) {
@@ -77,7 +82,7 @@ let ScrapeService = class ScrapeService {
         return fileContent;
     }
     async editFileContent(filePath, data) {
-        await fs_1.promises.writeFile(filePath, JSON.stringify(data, null, 2));
+        await fs_1.promises.writeFile(filePath, data);
     }
     async getZealyData(link, fileName) {
         try {
@@ -86,34 +91,33 @@ let ScrapeService = class ScrapeService {
             const requestOptions = this.buildRequestOptions(cookieData);
             const response = await this.fetchUrl(link, requestOptions);
             if (!response.ok) {
-                console.log(response);
                 throw new Error(`Request failed: ${response.status}`);
             }
-            const data = await response.json();
-            let existingData = null;
-            try {
-                const fileContent = await this.getFileContent(filePath);
-                existingData = JSON.parse(fileContent);
-            }
-            catch (err) {
-            }
-            if (JSON.stringify(existingData) !== JSON.stringify(data)) {
-                await this.sendMessage(5669972257, `New Update: ${link}`);
-                await this.sendMessage(5727225410, `New Update: ${link}`);
-                await this.editFileContent(filePath, data);
-                console.log("Data changed. File updated.");
+            const res = await response.json();
+            const hashedResponse = this.hashString(JSON.stringify(res));
+            const fileContent = await this.getFileContent(filePath);
+            if (fileContent === hashedResponse) {
+                console.log('Same content', link);
             }
             else {
-                console.log("No changes. File not updated.");
+                await this.onLeaderboardChange(fileName);
+                this.editFileContent(filePath, hashedResponse);
+                console.log('different content');
             }
-            return data;
+            return res;
         }
         catch (error) {
             console.error(error);
         }
     }
+    async onLeaderboardChange(name) {
+        console.log("Running your custom logic...");
+        await this.sendMessage(5669972257, `Task Added`);
+        await this.sendMessage(5727225410, `Task Added`);
+        await this.sendMessage(7691672328, `Task Added`);
+    }
     async scrapeData() {
-        const rawLinks = this.configService.get('ZEALY_LINKS');
+        const rawLinks = this.configService.get("ZEALY_LINKS");
         if (!rawLinks) {
             console.error("ZEALY_LINKS not defined in .env");
             return;
@@ -137,7 +141,7 @@ let ScrapeService = class ScrapeService {
 };
 exports.ScrapeService = ScrapeService;
 __decorate([
-    (0, schedule_1.Cron)(schedule_1.CronExpression.EVERY_10_SECONDS),
+    (0, schedule_1.Cron)(schedule_1.CronExpression.EVERY_SECOND),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", Promise)
