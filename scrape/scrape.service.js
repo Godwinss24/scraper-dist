@@ -78,8 +78,17 @@ let ScrapeService = class ScrapeService {
         };
     }
     async getFileContent(filePath) {
-        const fileContent = await fs_1.promises.readFile(filePath, "utf-8");
-        return fileContent;
+        try {
+            const fileContent = await fs_1.promises.readFile(filePath, "utf-8");
+            return fileContent;
+        }
+        catch (err) {
+            if (err.code === "ENOENT") {
+                await fs_1.promises.writeFile(filePath, "", "utf-8");
+                return "";
+            }
+            throw err;
+        }
     }
     async editFileContent(filePath, data) {
         await fs_1.promises.writeFile(filePath, data);
@@ -87,11 +96,11 @@ let ScrapeService = class ScrapeService {
     extractUsername(url) {
         try {
             const urlObj = new URL(url);
-            const parts = urlObj.pathname.split('/');
+            const parts = urlObj.pathname.split("/");
             return parts[2] || null;
         }
         catch (error) {
-            console.error('Invalid URL:', error);
+            console.error("Invalid URL:", error);
             return null;
         }
     }
@@ -108,12 +117,12 @@ let ScrapeService = class ScrapeService {
             const hashedResponse = this.hashString(JSON.stringify(res));
             const fileContent = await this.getFileContent(filePath);
             if (fileContent === hashedResponse) {
-                console.log('Same content', link);
+                console.log("Same content", link);
             }
             else {
                 await this.onLeaderboardChange(link);
                 this.editFileContent(filePath, hashedResponse);
-                console.log('different content');
+                console.log("different content");
             }
             return res;
         }
@@ -141,13 +150,10 @@ let ScrapeService = class ScrapeService {
             console.error("Invalid ZEALY_LINKS JSON in .env", err);
             return;
         }
-        for (const event of links) {
-            if (!event.link || !event.fileName) {
-                console.error("Invalid entry in ZEALY_LINKS:", event);
-                continue;
-            }
-            await this.getZealyData(event.link, event.fileName);
-        }
+        const tasks = links
+            .filter((event) => event.link && event.fileName)
+            .map((event) => this.getZealyData(event.link, event.fileName));
+        await Promise.all(tasks);
     }
 };
 exports.ScrapeService = ScrapeService;
