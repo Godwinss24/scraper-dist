@@ -152,6 +152,7 @@ let ScrapeService = class ScrapeService {
         let links;
         try {
             links = JSON.parse(rawLinks);
+            
         }
         catch (err) {
             console.error("Invalid ZEALY_LINKS JSON in .env", err);
