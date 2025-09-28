@@ -11,6 +11,7 @@ export declare class ScrapeService {
     findOne(id: number): string;
     update(id: number, updateScrapeDto: UpdateScrapeDto): string;
     remove(id: number): string;
+    getQuestDetails(eventName: string, questId: string): Promise<any>;
     private buildFilePath;
     private cookieData;
     sendMessage(chatId: number, text: string): Promise<void>;

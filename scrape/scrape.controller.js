@@ -25,6 +25,9 @@ let ScrapeController = class ScrapeController {
     create(createScrapeDto) {
         return this.scrapeService.create(createScrapeDto);
     }
+    findAll(eventName, questId) {
+        return this.scrapeService.getQuestDetails(eventName, questId);
+    }
     findOne(id) {
         return this.scrapeService.findOne(+id);
     }
@@ -53,6 +56,14 @@ __decorate([
     __metadata("design:paramtypes", [create_scrape_dto_1.CreateScrapeDto]),
     __metadata("design:returntype", void 0)
 ], ScrapeController.prototype, "create", null);
+__decorate([
+    (0, common_1.Get)(':eventName/:questId'),
+    __param(0, (0, common_1.Param)('eventName')),
+    __param(1, (0, common_1.Param)('questId')),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [String, String]),
+    __metadata("design:returntype", void 0)
+], ScrapeController.prototype, "findAll", null);
 __decorate([
     (0, common_1.Get)(":id"),
     __param(0, (0, common_1.Param)("id")),
