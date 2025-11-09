@@ -8,9 +8,19 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AppService = void 0;
 const common_1 = require("@nestjs/common");
+const dotenv = require("dotenv");
+dotenv.config();
 let AppService = class AppService {
     getHello() {
-        return 'Hello World!';
+        const rawLinks = process.env.ZEALY_LINKS;
+        let links;
+        try {
+            links = JSON.parse(rawLinks);
+        }
+        catch (err) {
+            return `An error occured while parsing the links`;
+        }
+        return `${links.map((c) => c.fileName).toString()}`;
     }
 };
 exports.AppService = AppService;
