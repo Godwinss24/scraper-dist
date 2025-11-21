@@ -97,7 +97,7 @@ let ScrapeService = class ScrapeService {
         }
     }
     async editFileContent(filePath, data) {
-        await fs_1.promises.writeFile(filePath, data);
+        await fs_1.promises.writeFile(filePath, data, "utf8");
     }
     extractUsername(url) {
         try {
@@ -122,12 +122,12 @@ let ScrapeService = class ScrapeService {
             const res = await response.json();
             const hashedResponse = this.hashString(JSON.stringify(res));
             const fileContent = await this.getFileContent(filePath);
-            if (fileContent === hashedResponse) {
+            if (fileContent.trim() === hashedResponse.trim()) {
                 console.log("Same content", link);
             }
             else {
                 await this.onLeaderboardChange(link);
-                this.editFileContent(filePath, hashedResponse);
+                await this.editFileContent(filePath, hashedResponse);
                 console.log("different content");
             }
             return res;
