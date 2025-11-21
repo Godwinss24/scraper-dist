@@ -120,7 +120,16 @@ let ScrapeService = class ScrapeService {
                 throw new Error(`Request failed: ${response.status}`);
             }
             const res = await response.json();
-            const hashedResponse = this.hashString(JSON.stringify(res));
+            const minimalData = res.map((category) => ({
+                id: category.id,
+                totalQuestCount: category.totalQuestCount,
+                quests: category.quests.map((q) => ({
+                    id: q.id,
+                    completed: q.completed,
+                    claimed: q.claimed,
+                })),
+            }));
+            const hashedResponse = this.hashString(JSON.stringify(minimalData));
             const fileContent = await this.getFileContent(filePath);
             if (fileContent.trim() === hashedResponse.trim()) {
                 console.log("Same content", link);
