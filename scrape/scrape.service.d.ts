@@ -22,6 +22,9 @@ export declare class ScrapeService {
     editFileContent(filePath: string, data: any): Promise<void>;
     extractUsername(url: string): string | null;
     getZealyData(link: string, fileName: string): Promise<any>;
-    onLeaderboardChange(link: string): Promise<void>;
+    onLeaderboardChange(link: string, changedQuestIds: {
+        categoryId: string;
+        questId: string;
+    }[]): Promise<void>;
     scrapeData(): Promise<void>;
 }

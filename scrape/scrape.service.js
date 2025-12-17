@@ -50,7 +50,7 @@ let ScrapeService = class ScrapeService {
         return (0, path_1.join)(__dirname, "../assets", name);
     }
     cookieData() {
-        return "cookie-config={%22analytics%22:true%2C%22marketing%22:true%2C%22functional%22:true}; intercom-id-nketzd4e=08a700ec-28d5-4b62-aa35-5aeb4ef33d55; intercom-device-id-nketzd4e=ac144407-ae02-42e4-aced-c87e28611f3c; _fbp=fb.1.1759828535786.242667695334116567; access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhZDQ4ZDQ3Ni1mMzVmLTQzNTItOTc2MS03MTcxZDFhZWZhMTMiLCJhY2NvdW50VHlwZSI6ImVtYWlsIiwiZW1haWwiOiJtYXlhQGdvZHdpbnMud29yay5nZCIsImxhc3RFbWFpbENoZWNrIjoxNzY0MDY0MDM2ODI3LCJpYXQiOjE3NjQwNjQwMzYsImV4cCI6MTc2NjY1NjAzNn0.au156nv7yhzIHOM-Tpyw28hYZQT0d2mYxCdFHQcbvYI; user_metadata=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhZDQ4ZDQ3Ni1mMzVmLTQzNTItOTc2MS03MTcxZDFhZWZhMTMiLCJpYXQiOjE3NjQwNjQwMzYsImV4cCI6MTc2NjY1NjAzNn0.ELBOt0DLDuoCDzsPquR_Rh2tZrs7wfszne8xOL3bwbo; mp_331e7ed57ec193ae7fde9e90b8ef68d4_mixpanel=%7B%22distinct_id%22%3A%22%24device%3Af4d0e533-53e6-4f9b-8d42-9475c25399a2%22%2C%22%24device_id%22%3A%22f4d0e533-53e6-4f9b-8d42-9475c25399a2%22%2C%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%2C%22__mps%22%3A%7B%7D%2C%22__mpso%22%3A%7B%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%7D%2C%22__mpus%22%3A%7B%7D%2C%22__mpa%22%3A%7B%7D%2C%22__mpu%22%3A%7B%7D%2C%22__mpr%22%3A%5B%5D%2C%22__mpap%22%3A%5B%5D%7D; connect.sid=s%3AzAV4E9AA5inb8YbfWSaAzZ8hjgXcU5Ee.lZilunpKU4yPusCsYmQNSZMXFf78dDJuuPnXl354h7M; intercom-session-nketzd4e=b1p4U0tpVnM5WWdDVTBFalVpaC9jWUIxSmhMYmpvZFd5cDhsNXVnNWdoeG5xcTl1bkFwS0M5djZnekRhZk05eTFKdDhXZGt0VzliaHc2eEJxZmRxK0M3Rjg2UzZHeTY4SzE2WnFFcDFNZTA9LS1ybFNHZTJKWVBQZTYrWGw0MnEzcDBnPT0=--9f6a13859e805dde22bd2703d9f13d25e6429229";
+        return "_fbp=fb.1.1756283062502.580017252538621248; intercom-id-nketzd4e=385781d5-e5c9-43d7-9bf4-47bbeaf251fa; intercom-device-id-nketzd4e=a511f8f9-b03d-432d-bf74-9ae25e07649f; _tt_enable_cookie=1; _ttp=01K3NA3XNZ48KWAB4J94M84AV1_.tt.1; ttcsid_CO6OII3C77UAL9O5M6RG=1758728222180::RuAHd9UtPirBC9pPBS8G.14.1758728360651.0; ttcsid=1758728222181::NFYwFcgASScpuI28aYGY.13.1758728360651.0; access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1NWVlZWE4ZS0wMmUxLTQ3ZDEtYWM1OC02MmRmMDc5Njc0NDgiLCJhY2NvdW50VHlwZSI6ImVtYWlsIiwiZW1haWwiOiJnb2R3aW5zZ29kd2luOTczQGdtYWlsLmNvbSIsImxhc3RFbWFpbENoZWNrIjoxNzYzODMzMjMxMTg2LCJpYXQiOjE3NjM4MzMyMzEsImV4cCI6MTc2NjQyNTIzMX0.fgHLpLlaL_tjSLaexZz8xqlqT3AkRd4yj7Dcc4AGoU0; user_metadata=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1NWVlZWE4ZS0wMmUxLTQ3ZDEtYWM1OC02MmRmMDc5Njc0NDgiLCJpYXQiOjE3NjM4MzMyMzEsImV4cCI6MTc2NjQyNTIzMX0.oVtbaZXN8YUVC5KY10_dWH636qoBQPmplfnLKH5rBFE; cookie-config={%22analytics%22:true%2C%22marketing%22:true%2C%22functional%22:true}; referrer-url=https://zealy.io/my-communities; connect.sid=s%3AblCXOoRVwrAVMGzrNCoS8WuaqKAHqzOy.U%2FmhK7E5nof%2BRHexshBavoleoGe%2B%2BYlCx01A%2FNlWcKQ; intercom-session-nketzd4e=am5ydUY0OU1ITDJBOVZHVEs2azR2WGlieW9wa1EwdXdQSFJpSlZvTjJKdUNjYkVjZFJESy91eUhKOXdEVTlQc1V6Qjl6UWxmU014L1ZxdkhvZWk0UlpRKytTVzlnK2Z1NGtJZG5tWmM3UFU9LS1lekdwQzNiYXp5WjN3S3BhRDkwSWVBPT0=--3d8e50ea1b140243b7b66690aa24d9eac4d592f3; mp_331e7ed57ec193ae7fde9e90b8ef68d4_mixpanel=%7B%22distinct_id%22%3A%22%24device%3Ab74edc42-911d-410f-b59c-7d0138825448%22%2C%22%24device_id%22%3A%22b74edc42-911d-410f-b59c-7d0138825448%22%2C%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%2C%22__mps%22%3A%7B%7D%2C%22__mpso%22%3A%7B%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%7D%2C%22__mpus%22%3A%7B%7D%2C%22__mpa%22%3A%7B%7D%2C%22__mpu%22%3A%7B%7D%2C%22__mpr%22%3A%5B%5D%2C%22__mpap%22%3A%5B%5D%7D";
     }
     async sendMessage(chatId, text) {
         await fetch(`${this.baseUrl}/sendMessage`, {
@@ -129,14 +129,41 @@ let ScrapeService = class ScrapeService {
                     claimed: q.claimed,
                 })),
             }));
-            const hashedResponse = this.hashString(JSON.stringify(minimalData));
             const fileContent = await this.getFileContent(filePath);
-            if (fileContent.trim() === hashedResponse.trim()) {
+            if (fileContent.trim() === JSON.stringify(minimalData)) {
                 console.log("Same content", link);
             }
             else {
-                await this.onLeaderboardChange(link);
-                await this.editFileContent(filePath, hashedResponse);
+                const changedQuestIdsForTelegram = [];
+                try {
+                    const previousData = JSON.parse(fileContent);
+                    minimalData.forEach((category) => {
+                        const oldCategory = previousData.find((c) => c.id === category.id);
+                        if (!oldCategory)
+                            return;
+                        category.quests.forEach((quest) => {
+                            const oldQuest = oldCategory.quests.find((q) => q.id === quest.id);
+                            if (!oldQuest ||
+                                oldQuest.completed !== quest.completed ||
+                                oldQuest.claimed !== quest.claimed) {
+                                changedQuestIdsForTelegram.push({
+                                    categoryId: category.id,
+                                    questId: quest.id,
+                                });
+                            }
+                        });
+                    });
+                    if (changedQuestIdsForTelegram.length) {
+                        console.log("Changed quest IDs:", changedQuestIdsForTelegram.map((q) => q.questId));
+                    }
+                }
+                catch (e) {
+                    console.warn("Could not parse previous file content for quest diff");
+                }
+                if (changedQuestIdsForTelegram.length) {
+                    await this.onLeaderboardChange(link, changedQuestIdsForTelegram);
+                }
+                await this.editFileContent(filePath, JSON.stringify(minimalData));
                 console.log("different content");
             }
             return res;
@@ -145,12 +172,17 @@ let ScrapeService = class ScrapeService {
             console.error(error);
         }
     }
-    async onLeaderboardChange(link) {
+    async onLeaderboardChange(link, changedQuestIds) {
         console.log("Running your custom logic...");
         const telegramIds = process.env.TELEGRAM_IDS?.split(",") || [];
+        const sendPromises = [];
         for (const id of telegramIds) {
-            await this.sendMessage(Number(id.trim()), `Task Added ${this.extractUsername(link)}`);
+            for (const q of changedQuestIds) {
+                const message = `Task Added ${this.extractUsername(link)}\nlink: https://zealy.io/cw/${this.extractUsername(link)}/questboard/${q.categoryId}/${q.questId}`;
+                sendPromises.push(this.sendMessage(Number(id.trim()), message));
+            }
         }
+        await Promise.all(sendPromises);
     }
     async scrapeData() {
         const rawLinks = this.configService.get("ZEALY_LINKS");
