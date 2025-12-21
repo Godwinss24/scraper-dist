@@ -50,7 +50,7 @@ let ScrapeService = class ScrapeService {
         return (0, path_1.join)(__dirname, "../assets", name);
     }
     cookieData() {
-        return "intercom-id-nketzd4e=272128c4-dbde-4692-b486-78e583258151; intercom-device-id-nketzd4e=cd97a6b3-32a2-41f7-b70f-3681cf4c4662; _fbp=fb.1.1756936701255.212593386515633543; _tt_enable_cookie=1; _ttp=01K48SHHRAAFNM2WS65XHV80XD_.tt.1; ttcsid=1758854531548::saqOlgufhFqgzTL6G3_Q.5.1758854821415.0; ttcsid_CO6OII3C77UAL9O5M6RG=1758854531546::grugUcN4TmX7cqoRuG7W.5.1758854822680.0; cookie-config={%22analytics%22:true%2C%22marketing%22:true%2C%22functional%22:true}; access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI4OWNkNTYxNS1hYTM2LTQ2NDAtYTI4OC05MzdmZWY0MWMyZGUiLCJhY2NvdW50VHlwZSI6ImVtYWlsIiwiZW1haWwiOiJkaXNjb0Bnb2R3aW5zLndvcmsuZ2QiLCJsYXN0RW1haWxDaGVjayI6MTc2NjAyMDk1Nzc4NCwiaWF0IjoxNzY2MDIwOTU3LCJleHAiOjE3Njg2MTI5NTd9.D6eS8Pfm5-0hAlnxyAHpmKXyaY1MYkYECQfAEhdaLW4; user_metadata=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI4OWNkNTYxNS1hYTM2LTQ2NDAtYTI4OC05MzdmZWY0MWMyZGUiLCJpYXQiOjE3NjYwMjA5NTcsImV4cCI6MTc2ODYxMjk1N30.MQukNWlcLbRG8JZA27zU-OK_-5nJx-K1-n4ElxcqmQY; connect.sid=s%3AB7wU3kJVJFGx-Umn-EGdVC5pri5Hn7BF.HHgAZ%2BgdU7meGQOtuSXq%2FEF71GIAdZYx%2FVkzf70Xq50; mp_331e7ed57ec193ae7fde9e90b8ef68d4_mixpanel=%7B%22distinct_id%22%3A%22%24device%3Ab9e37084-f7f1-46fb-8ef4-503740eb01f4%22%2C%22%24device_id%22%3A%22b9e37084-f7f1-46fb-8ef4-503740eb01f4%22%2C%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%2C%22__mps%22%3A%7B%7D%2C%22__mpso%22%3A%7B%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%7D%2C%22__mpus%22%3A%7B%7D%2C%22__mpa%22%3A%7B%7D%2C%22__mpu%22%3A%7B%7D%2C%22__mpr%22%3A%5B%5D%2C%22__mpap%22%3A%5B%5D%7D; intercom-session-nketzd4e=Und4dkFod2YwZnNMVDVwWERHekR2ZmYwdmw4ZnFIUTFteVViS0pXWWVYSWVmdUlIVXBHV2R0alIrb2hLMStMU25Db3k1cHJIVCtnaGcyeXpJRWxSeHdSWFpITVpIZE9xYjBVTCtkZ0xvUHM9LS1wMXRCZFdlUG9HVkppQWhRWTZUQ3JBPT0=--25abe6e54d38d2598f35e8dcdd007118f9d4d4e0";
+        return "intercom-id-nketzd4e=272128c4-dbde-4692-b486-78e583258151; intercom-device-id-nketzd4e=cd97a6b3-32a2-41f7-b70f-3681cf4c4662; _fbp=fb.1.1756936701255.212593386515633543; _tt_enable_cookie=1; _ttp=01K48SHHRAAFNM2WS65XHV80XD_.tt.1; ttcsid=1758854531548::saqOlgufhFqgzTL6G3_Q.5.1758854821415.0; ttcsid_CO6OII3C77UAL9O5M6RG=1758854531546::grugUcN4TmX7cqoRuG7W.5.1758854822680.0; cookie-config={%22analytics%22:true%2C%22marketing%22:true%2C%22functional%22:true}; connect.sid=s%3A6RlCadcuqkjksxRhTNQl_5N7vI-f6BCO.lgWnet3Um7mSE2oKuPl%2FukMF5ihg7ce%2BwRDunOUu6cQ; mp_331e7ed57ec193ae7fde9e90b8ef68d4_mixpanel=%7B%22distinct_id%22%3A%22%24device%3Ab9e37084-f7f1-46fb-8ef4-503740eb01f4%22%2C%22%24device_id%22%3A%22b9e37084-f7f1-46fb-8ef4-503740eb01f4%22%2C%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%2C%22__mps%22%3A%7B%7D%2C%22__mpso%22%3A%7B%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%7D%2C%22__mpus%22%3A%7B%7D%2C%22__mpa%22%3A%7B%7D%2C%22__mpu%22%3A%7B%7D%2C%22__mpr%22%3A%5B%5D%2C%22__mpap%22%3A%5B%5D%7D; referrer-url=https://zealy.io/cw/clapp/questboard; intercom-session-nketzd4e=; access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI4OWNkNTYxNS1hYTM2LTQ2NDAtYTI4OC05MzdmZWY0MWMyZGUiLCJhY2NvdW50VHlwZSI6ImVtYWlsIiwiZW1haWwiOiJkaXNjb0Bnb2R3aW5zLndvcmsuZ2QiLCJsYXN0RW1haWxDaGVjayI6MTc2NjAyMDk1Nzc4NCwiaWF0IjoxNzY2MDIwOTU3LCJleHAiOjE3Njg2MTI5NTd9.D6eS8Pfm5-0hAlnxyAHpmKXyaY1MYkYECQfAEhdaLW4; user_metadata=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI4OWNkNTYxNS1hYTM2LTQ2NDAtYTI4OC05MzdmZWY0MWMyZGUiLCJpYXQiOjE3NjYwMjA5NTcsImV4cCI6MTc2ODYxMjk1N30.MQukNWlcLbRG8JZA27zU-OK_-5nJx-K1-n4ElxcqmQY";
     }
     async sendMessage(chatId, text) {
         await fetch(`${this.baseUrl}/sendMessage`, {
@@ -90,7 +90,6 @@ let ScrapeService = class ScrapeService {
         }
         catch (err) {
             if (err.code === "ENOENT") {
-                console.log("File content does not exist.");
                 await fs_1.promises.writeFile(filePath, "", "utf-8");
                 return "";
             }
@@ -131,32 +130,6 @@ let ScrapeService = class ScrapeService {
                 })),
             }));
             const fileContent = await this.getFileContent(filePath);
-            if (!fileContent || fileContent.trim() === "") {
-                console.log("no file content block is running");
-                const allQuestsForTelegram = [];
-                minimalData.forEach((category) => {
-                    category.quests.forEach((quest) => {
-                        allQuestsForTelegram.push({
-                            categoryId: category.id,
-                            questId: quest.id,
-                        });
-                    });
-                });
-                if (allQuestsForTelegram.length) {
-                    await this.onLeaderboardChange(link, allQuestsForTelegram);
-                }
-                else {
-                    console.log("no task in event yet");
-                }
-                if (minimalData.length > 0) {
-                    await this.editFileContent(filePath, JSON.stringify(minimalData));
-                }
-                else {
-                    await this.editFileContent(filePath, "");
-                }
-                console.log("First run: all quests sent");
-                return res;
-            }
             if (fileContent.trim() === JSON.stringify(minimalData)) {
                 console.log("Same content", link);
             }
