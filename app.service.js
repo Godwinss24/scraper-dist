@@ -25,10 +25,11 @@ let AppService = class AppService {
         return `${links.map((c) => c.fileName).toString()}`;
     }
     buildFilePath(fileName) {
-        return (0, path_1.join)(__dirname, "../assets", fileName);
+        return (0, path_1.join)(__dirname, "assets", fileName);
     }
     async getFileContent(fileName) {
         const filePath = this.buildFilePath(fileName);
+        console.log("filepath", filePath)
         return fs_1.promises.readFile(filePath, "utf-8");
     }
     async getFile(fileName) {
