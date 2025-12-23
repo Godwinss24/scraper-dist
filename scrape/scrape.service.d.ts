@@ -15,6 +15,7 @@ export declare class ScrapeService {
     private buildFilePath;
     private cookieData;
     sendMessage(chatId: number, text: string): Promise<void>;
+    printFolderTree(dir: string, depth?: number, maxDepth?: number): Promise<void>;
     fetchUrl(url: string, requestOptions: RequestInit): Promise<Response>;
     hashString(data: string): string;
     buildRequestOptions(cookieData: string): RequestInit;

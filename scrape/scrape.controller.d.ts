@@ -6,7 +6,7 @@ export declare class ScrapeController {
     constructor(scrapeService: ScrapeService);
     create(createScrapeDto: CreateScrapeDto): string;
     findAll(eventName: string, questId: string): Promise<any>;
-    findOne(id: string): string;
+    findOne(): Promise<void>;
     update(id: string, updateScrapeDto: UpdateScrapeDto): string;
     remove(id: string): string;
     handleWebhook(update: any): Promise<{

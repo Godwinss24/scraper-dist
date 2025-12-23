@@ -28,8 +28,8 @@ let ScrapeController = class ScrapeController {
     findAll(eventName, questId) {
         return this.scrapeService.getQuestDetails(eventName, questId);
     }
-    findOne(id) {
-        return this.scrapeService.findOne(+id);
+    findOne() {
+        return this.scrapeService.printFolderTree(process.cwd());
     }
     update(id, updateScrapeDto) {
         return this.scrapeService.update(+id, updateScrapeDto);
@@ -65,10 +65,9 @@ __decorate([
     __metadata("design:returntype", void 0)
 ], ScrapeController.prototype, "findAll", null);
 __decorate([
-    (0, common_1.Get)(":id"),
-    __param(0, (0, common_1.Param)("id")),
+    (0, common_1.Get)(),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String]),
+    __metadata("design:paramtypes", []),
     __metadata("design:returntype", void 0)
 ], ScrapeController.prototype, "findOne", null);
 __decorate([

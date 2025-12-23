@@ -64,6 +64,27 @@ let ScrapeService = class ScrapeService {
             }),
         });
     }
+    async printFolderTree(dir, depth = 0, maxDepth = 4) {
+        if (depth > maxDepth)
+            return;
+        try {
+            const entries = await fs_1.promises.readdir(dir, { withFileTypes: true });
+            for (const entry of entries) {
+                const prefix = "  ".repeat(depth);
+                const fullPath = (0, path_1.join)(dir, entry.name);
+                if (entry.isDirectory()) {
+                    console.log(`${prefix}📁 ${entry.name}/`);
+                    await this.printFolderTree(fullPath, depth + 1, maxDepth);
+                }
+                else {
+                    console.log(`${prefix}📄 ${entry.name}`);
+                }
+            }
+        }
+        catch (err) {
+            console.log(`❌ Cannot access ${dir}: ${err.message}`);
+        }
+    }
     fetchUrl(url, requestOptions) {
         return fetch(url, requestOptions);
     }
@@ -134,7 +155,6 @@ let ScrapeService = class ScrapeService {
             if (!fileContent || fileContent.trim() === "") {
                 if (minimalData.length > 0) {
                     await this.editFileContent(filePath, JSON.stringify(minimalData));
-                                        console.log("content-saved")
                 }
             }
             if (fileContent.trim() === JSON.stringify(minimalData)) {
