@@ -70,6 +70,9 @@ let ScrapeService = class ScrapeService {
         try {
             const entries = await fs_1.promises.readdir(dir, { withFileTypes: true });
             for (const entry of entries) {
+                if (entry.isDirectory() && entry.name === "node_modules") {
+                    continue;
+                }
                 const prefix = "  ".repeat(depth);
                 const fullPath = (0, path_1.join)(dir, entry.name);
                 if (entry.isDirectory()) {
