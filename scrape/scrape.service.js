@@ -134,6 +134,7 @@ let ScrapeService = class ScrapeService {
             if (!fileContent || fileContent.trim() === "") {
                 if (minimalData.length > 0) {
                     await this.editFileContent(filePath, JSON.stringify(minimalData));
+                                        console.log("content-saved")
                 }
             }
             if (fileContent.trim() === JSON.stringify(minimalData)) {
