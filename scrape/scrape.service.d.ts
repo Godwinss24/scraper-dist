@@ -1,7 +1,8 @@
+import { OnModuleInit } from "@nestjs/common";
 import { CreateScrapeDto } from "./dto/create-scrape.dto";
 import { UpdateScrapeDto } from "./dto/update-scrape.dto";
 import { ConfigService } from "@nestjs/config";
-export declare class ScrapeService {
+export declare class ScrapeService implements OnModuleInit {
     private configService;
     private botToken;
     private baseUrl;
@@ -23,6 +24,8 @@ export declare class ScrapeService {
     editFileContent(filePath: string, data: any): Promise<void>;
     extractUsername(url: string): string | null;
     getZealyData(link: string, fileName: string): Promise<any>;
+    private telegramIds;
+    onModuleInit(): Promise<void>;
     onLeaderboardChange(link: string, changedQuestIds: {
         categoryId: string;
         questId: string;

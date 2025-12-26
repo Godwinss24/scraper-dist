@@ -50,7 +50,7 @@ let ScrapeService = class ScrapeService {
         return (0, path_1.join)(__dirname, "../assets", name);
     }
     cookieData() {
-        return "intercom-id-nketzd4e=272128c4-dbde-4692-b486-78e583258151; intercom-device-id-nketzd4e=cd97a6b3-32a2-41f7-b70f-3681cf4c4662; _fbp=fb.1.1756936701255.212593386515633543; _tt_enable_cookie=1; _ttp=01K48SHHRAAFNM2WS65XHV80XD_.tt.1; ttcsid=1758854531548::saqOlgufhFqgzTL6G3_Q.5.1758854821415.0; ttcsid_CO6OII3C77UAL9O5M6RG=1758854531546::grugUcN4TmX7cqoRuG7W.5.1758854822680.0; cookie-config={%22analytics%22:true%2C%22marketing%22:true%2C%22functional%22:true}; access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI4OWNkNTYxNS1hYTM2LTQ2NDAtYTI4OC05MzdmZWY0MWMyZGUiLCJhY2NvdW50VHlwZSI6ImVtYWlsIiwiZW1haWwiOiJkaXNjb0Bnb2R3aW5zLndvcmsuZ2QiLCJsYXN0RW1haWxDaGVjayI6MTc2NjAyMDk1Nzc4NCwiaWF0IjoxNzY2MDIwOTU3LCJleHAiOjE3Njg2MTI5NTd9.D6eS8Pfm5-0hAlnxyAHpmKXyaY1MYkYECQfAEhdaLW4; user_metadata=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI4OWNkNTYxNS1hYTM2LTQ2NDAtYTI4OC05MzdmZWY0MWMyZGUiLCJpYXQiOjE3NjYwMjA5NTcsImV4cCI6MTc2ODYxMjk1N30.MQukNWlcLbRG8JZA27zU-OK_-5nJx-K1-n4ElxcqmQY; connect.sid=s%3Aia5kicZezvS34gkYdFWpInC1XotKJUxL.ubSRIfXFa1p1fvyE8tRcbaLE6TRT%2FrvxP%2BfEP8ZIHds; subdomain=root; mp_331e7ed57ec193ae7fde9e90b8ef68d4_mixpanel=%7B%22distinct_id%22%3A%22%24device%3Ab9e37084-f7f1-46fb-8ef4-503740eb01f4%22%2C%22%24device_id%22%3A%22b9e37084-f7f1-46fb-8ef4-503740eb01f4%22%2C%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%2C%22__mps%22%3A%7B%7D%2C%22__mpso%22%3A%7B%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%7D%2C%22__mpus%22%3A%7B%7D%2C%22__mpa%22%3A%7B%7D%2C%22__mpu%22%3A%7B%7D%2C%22__mpr%22%3A%5B%5D%2C%22__mpap%22%3A%5B%5D%7D; referrer-url=https://zealy.io/my-communities; intercom-session-nketzd4e=ZlI3WkJaOGRPTVY0Tlh0RTVPUGRBS0UybU9vWWYvZEw1Ti9vMjViOXpWekJ5eGdnZ0RoWXdSMS9HQUE1M2JqUDZxNnh2NXI0Wm1rczZvUTlHSE01TDdvcFdhanlFOHlsK2I3Q2RUYWUzT0k9LS1BUUNRQWFoZzUzbG1PSlQ2d1hyeUJnPT0=--3a6e76acb62fcf84bca842bc1506667a84cdc539";
+        return "intercom-id-nketzd4e=272128c4-dbde-4692-b486-78e583258151; intercom-device-id-nketzd4e=cd97a6b3-32a2-41f7-b70f-3681cf4c4662; _tt_enable_cookie=1; _ttp=01K48SHHRAAFNM2WS65XHV80XD_.tt.1; ttcsid=1758854531548::saqOlgufhFqgzTL6G3_Q.5.1758854821415.0; ttcsid_CO6OII3C77UAL9O5M6RG=1758854531546::grugUcN4TmX7cqoRuG7W.5.1758854822680.0; cookie-config={%22analytics%22:true%2C%22marketing%22:true%2C%22functional%22:true}; access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI4OWNkNTYxNS1hYTM2LTQ2NDAtYTI4OC05MzdmZWY0MWMyZGUiLCJhY2NvdW50VHlwZSI6ImVtYWlsIiwiZW1haWwiOiJkaXNjb0Bnb2R3aW5zLndvcmsuZ2QiLCJsYXN0RW1haWxDaGVjayI6MTc2NjAyMDk1Nzc4NCwiaWF0IjoxNzY2MDIwOTU3LCJleHAiOjE3Njg2MTI5NTd9.D6eS8Pfm5-0hAlnxyAHpmKXyaY1MYkYECQfAEhdaLW4; user_metadata=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI4OWNkNTYxNS1hYTM2LTQ2NDAtYTI4OC05MzdmZWY0MWMyZGUiLCJpYXQiOjE3NjYwMjA5NTcsImV4cCI6MTc2ODYxMjk1N30.MQukNWlcLbRG8JZA27zU-OK_-5nJx-K1-n4ElxcqmQY; intercom-session-nketzd4e=a1FPRTNqY1hFeCsxMjE1ZjFRWGEza2lGck8vdFFhakczRW44ejdTSVEzSEE3VDZZd21KOURweGlCUktEY1J6YnhQSHEzK01HUjNRYkw2NVdxZkRZYUdURFFDdENNdFl2TzJTL2RzTHNMZFU9LS1xZmtjV3huU2JhL2h0QXp2NHlLd1dBPT0=--a57c31b7b2a2be74fa517e0448a5006f8b033691; mp_331e7ed57ec193ae7fde9e90b8ef68d4_mixpanel=%7B%22distinct_id%22%3A%22%24device%3Ab9e37084-f7f1-46fb-8ef4-503740eb01f4%22%2C%22%24device_id%22%3A%22b9e37084-f7f1-46fb-8ef4-503740eb01f4%22%2C%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%2C%22__mps%22%3A%7B%7D%2C%22__mpso%22%3A%7B%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%7D%2C%22__mpus%22%3A%7B%7D%2C%22__mpa%22%3A%7B%7D%2C%22__mpu%22%3A%7B%7D%2C%22__mpr%22%3A%5B%5D%2C%22__mpap%22%3A%5B%5D%7D; connect.sid=s%3AEcog_8GCW_62fSKXmHeijXkoPNCpPlaG.erbbNI1OWqCPzu%2BCjl4YkOBk79ya0W2hf%2B%2FXKj8p3pE"
     }
     async sendMessage(chatId, text) {
         await fetch(`${this.baseUrl}/sendMessage`, {
@@ -63,6 +63,7 @@ let ScrapeService = class ScrapeService {
                 text,
             }),
         });
+        console.log(`message sent to ${chatId}`);
     }
     async printFolderTree(dir, depth = 0, maxDepth = 4) {
         if (depth > maxDepth)
@@ -157,6 +158,7 @@ let ScrapeService = class ScrapeService {
             const fileContent = await this.getFileContent(filePath);
             if (!fileContent || fileContent.trim() === "") {
                 if (minimalData.length > 0) {
+                    console.log(`${fileName} initialized`);
                     await this.editFileContent(filePath, JSON.stringify(minimalData));
                 }
             }
@@ -202,11 +204,17 @@ let ScrapeService = class ScrapeService {
             console.error(error);
         }
     }
+    telegramIds = [];
+    async onModuleInit() {
+        this.telegramIds = process.env.TELEGRAM_IDS?.split(",") || [];
+        for (const id of this.telegramIds) {
+            console.log(id);
+        }
+    }
     async onLeaderboardChange(link, changedQuestIds) {
         console.log("Running your custom logic...");
-        const telegramIds = process.env.TELEGRAM_IDS?.split(",") || [];
         const sendPromises = [];
-        for (const id of telegramIds) {
+        for (const id of this.telegramIds) {
             for (const q of changedQuestIds) {
                 const message = `Task Added ${this.extractUsername(link)}\nlink: https://zealy.io/cw/${this.extractUsername(link)}/questboard/${q.categoryId}/${q.questId}`;
                 sendPromises.push(this.sendMessage(Number(id.trim()), message));

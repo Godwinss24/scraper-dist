@@ -4,4 +4,5 @@ export declare class AppController {
     constructor(appService: AppService);
     getHello(): string;
     getFile(fileName: string): Promise<string>;
+    telegramTest(): Promise<string>;
 }

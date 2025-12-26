@@ -26,6 +26,9 @@ let AppController = class AppController {
     getFile(fileName) {
         return this.appService.getFile(fileName);
     }
+    telegramTest() {
+        return this.appService.testing();
+    }
 };
 exports.AppController = AppController;
 __decorate([
@@ -41,6 +44,12 @@ __decorate([
     __metadata("design:paramtypes", [String]),
     __metadata("design:returntype", void 0)
 ], AppController.prototype, "getFile", null);
+__decorate([
+    (0, common_1.Get)('telegram'),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", void 0)
+], AppController.prototype, "telegramTest", null);
 exports.AppController = AppController = __decorate([
     (0, common_1.Controller)(),
     __metadata("design:paramtypes", [app_service_1.AppService])
