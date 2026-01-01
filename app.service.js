@@ -65,6 +65,7 @@ let AppService = class AppService {
         console.log(`message sent to ${chatId}`);
     }
     async testing() {
+        console.log("running");
         for (const id of this.telegramIds) {
             console.log(id);
             await this.sendMessage(id, `Testing...`);

@@ -26,7 +26,7 @@ export declare class ScrapeService implements OnModuleInit {
     getZealyData(link: string, fileName: string): Promise<any>;
     private telegramIds;
     onModuleInit(): Promise<void>;
-    onLeaderboardChange(link: string, changedQuestIds: {
+    onLeaderboardChange(link: string, changedQuestIds?: {
         categoryId: string;
         questId: string;
     }[]): Promise<void>;
